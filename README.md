@@ -6,7 +6,7 @@
 
 3. go get github.com/joho/godotenv
 
-Peer to peer environmental setup:
+## Peer to peer environmental setup:
 
 1. go get -d github.com/libp2p/go-libp2p/...
 
