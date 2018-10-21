@@ -14,7 +14,7 @@ Peer to peer environmental setup:
 
 3. make
 
-4. sudo make deps
+4. make deps (If it shows error use sudo and/or add the path to environmental variable <Directory to go where library is installed>\go\bin)
 
 5. create a directory under examples called p2p with
 
@@ -22,7 +22,6 @@ mkdir ./examples/p2p.
 
 We are gonna keep the code in that directory. That means the code directory should be go/github.com/libp2p/go-libp2p/examples/p2p/main_old.go 
 
-6. Add the path to environmental variable <Directory to go where library is installed>\go\bin
 
 Build and Run:
 
